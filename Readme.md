@@ -39,4 +39,4 @@ To use this project, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/multi-step-form.git
+   git clone https://github.com/TaofeeTech/Multi-step-form.git
