@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Stepper</title>
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src="./Assets/main.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="form">
+
+            <div class="stepss">
+
+                <div class="step-num">1</div>
+                <div class="line"><div class="pro"></div></div>
+                <div class="step-num">2</div>
+                <div class="line"><div class="pros"></div></div>
+                <div class="step-num">3</div>
+
+            </div>
+
+            <form action="#">
+
+<!-- Step 1 Get to Know -->
+                <div class="step-1 step">
+
+                    <div class="grouper">
+
+                        <div class="input-group">
+
+                            <label for="f_name">First Name(*)</label>
+                            
+                            <input type="text" id="f_name">
+                            <span class="error"></span>
+    
+                        </div>
+    
+                        <div class="input-group">
+    
+                            <label for="l_name">Last Name(*)</label>
+                            <input type="text" id="l_name">
+                            <span class="error"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+
+                        <label for="o_name">Other Name(optional)</label>
+                        <input type="text" id="o_name">
+                        <span class="error"></span>
+                    </div>
+
+                    <div class="btn">
+
+                        <button type="button" id="next_2">Next -></button>
+
+                    </div>
+
+                </div>
+
+<!-- Step 2 Contact Info -->
+                <div class="step-2 step none">
+
+                    <div class="grouper">
+
+                        <div class="input-group">
+
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email">
+    
+                        </div>
+    
+                        <div class="input-group">
+    
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone">
+    
+                        </div>
+
+                    </div>
+
+                    <div class="grouper">
+
+                        <div class="input-group">
+
+                            <label for="country">Country</label>
+                            <input type="text" id="country">
+    
+                        </div>
+    
+                        <div class="input-group">
+    
+                            <label for="state">State Of Origin</label>
+                            <input type="text" id="state">
+    
+                        </div>
+
+                    </div>
+
+                    <div class="input-group">
+    
+                        <label for="address">Home Address</label>
+                        <input type="text" id="address">
+
+                    </div>
+
+                    <div class="btn">
+
+                        <button type="button" id="next_3">Next -></button>
+
+                    </div>
+
+                </div>
+
+<!-- Step 3 Security -->
+                <div class="step-3 step none">
+
+                    <div class="grouper">
+
+                        <div class="input-group">
+
+                            <label for="password">Password</label>
+                            <input type="password" id="password">
+    
+                        </div>
+    
+                        <div class="input-group">
+    
+                            <label for="r_password">Retype password</label>
+                            <input type="password" id="r_password">
+    
+                        </div>
+
+                    </div>
+
+                    <div class="btn">
+
+                        <button type="button" id="done">Done ✔</button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+        <div class="banner none">
+            <div>✔</div>
+            <p>Thank You! <br> <small>Form Submitted Successfully</small></p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
